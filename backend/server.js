@@ -13,7 +13,7 @@ dotenv.config();
 const app = express()
 const port = process.env.PORT || 4000;
 
-const alllowedOrigin = ['http://localhost:5173','http://localhost:5174']
+const alllowedOrigin = ['http://localhost:5173','http://localhost:5174','https://ecom-fashion-eta.vercel.app', 'https://ecom-fashion-admin.vercel.app']
 
  connectDB()
  connectCloudinary() 
